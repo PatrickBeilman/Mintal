@@ -91,6 +91,7 @@ def example_symptoms(): #example_symptoms function
                                           'ritualized patterns', 'extreme distress at small changes', 'difficulties with transitions',
                                           'rigid thinking patterns', 'fixated interests with abnormal intensity', 'hyper- or hyporeactivity to sensory input',
                                           'unusual interest in sensory aspects of the environment'],
+                         
                          "ADHD_symptoms": ['fails to give close attention to details', 'makes careless mistakes in work of some kind', 'difficulty sustaining attention in tasks',
                                            'does not  listen when spoken to directly', 'does not follow through on instructions',
                                            'fails to finish tasks', 'difficulty organizing tasks', 'teluctant to engage in tasks that require sustained mental effort',
@@ -98,27 +99,33 @@ def example_symptoms(): #example_symptoms function
                                            'often fidgets', 'often leaves leat in seated situations', 'runds about or climbs in situations where inappropriate',
                                            'unable to play or engage in leisure activites quietly', 'often on the go', 'talks excessively', 'blurts out answer before a question is completed',
                                            'difficutlty waiting their turn', 'interrupts or intrudes on others'],
+                         
                          "Schizophrenia_symptoms": ['delusions', 'hallucinations', 'disoganized speech', 'grossly disorganized or catatonic behavior', 'diminished emotional expression', 'avolition'],
+                         
                          "Bipolar_symptoms": ['inflated self-esteem', 'grandiosity', 'decreased need for sleep', 'more talkative than usual', 'pressure to keep talking', 'flight of ideas', 'racing thoughts',
                                               'distractibility', 'increase in goal-directed activity', 'excessive involvement in activities that have a high potential for painful consequences',
                                               'depressed mood most of the day', 'markedly diminished intrest in most or all activities', 'dminished pleasure in most or all activites', 'significant weight loss',
                                               'insomnia', 'hypersomnia', 'psychomotor agitation', 'psychomotor retardation', 'fatigue', 'loss of energy', 'feelings of worthlessness', 'excessive guilt',
                                               'inappropriate guilt', 'diminished ability to think', 'diminished ability to concentrate', 'indecisiveness', 'recurrent thoughts of death',
                                               'recurrent suicidal ideation', 'suicide attempt'],
+                         
                          "Major_Depressive_symptoms": ['depressed mood most of the day', 'markedly diminished intrest in most or all activities', 'dminished pleasure in most or all activites', 'significant weight loss',
                                                        'insomnia', 'hypersomnia', 'psychomotor agitation', 'psychomotor retardation', 'fatigue', 'loss of energy', 'feelings of worthlessness', 'excessive guilt',
                                                        'inappropriate guilt', 'diminished ability to think', 'diminished ability to concentrate', 'indecisiveness', 'recurrent thoughts of death',
                                                        'recurrent suicidal ideation', 'suicide attempt'],
+                         
                          "Premenstrual_Dysphoric_symptoms": ['marked affective lability', 'marked irritability', 'marked anger', 'increased interperonal conflicts', 'marked depressed mood', 'feelings of hopelessness',
                                                              'self-deprecating thoughts', 'marked anxiety', 'marked tension', 'feelings of being on edge', 'decreased interest in usual activities', 'subjective difficulty in concentration',
                                                              'lethargy', 'easy fatigability', 'marked lack of energy', 'marked change in appetite', 'overeating', 'specific food cravings', 'hypersomnia', 'insomnia', 'a sense of being overwhelmed',
                                                              'a sense of being out of control', 'breast tenderness', 'breast swelling', 'joint pain', 'mucsle pain', 'sensation of bloating', 'sensation of weight gain'],
+                         
                          "Specific_Phobia_symptoms": ['phobic object almost always provokes immediate fear', 'phobic situation almost always provokes immediate fear', 'phobic object almost always provokes immediate anxiety',
                                                       'phobic situation almost always provokes immediate anxiety', 'phobic object is actively avoided', 'phobic situation is actively avoided', 'phobic situation is endured with intense fear',
                                                       'phobic situation is endured with intense anxiety', 'phobic object is endured with intense fear', 'phobic object is endured with intense anxiety',
                                                       'fear is out of proportion to the actual danger posed by the object', 'anxiety is out of proportion to the actual danger posed by the specific object',
                                                       'fear is out of propotion to the actual danger posed by the specific situation', 'anxiety is out of proportion to the actual danger posed by the specific situation', 'fear is persistent',
                                                       'anxiety is persistent', 'avoidance is persistent', 'fear causes clinically significant distress', 'anxiety causes clinically significant distress', 'avoidance causes clinically significant distress'],
+                         
                          "Social_Anxiety_symptoms": []}
 
     return possible_symptoms
